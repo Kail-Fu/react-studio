@@ -62,7 +62,7 @@ function App() {
         <h2>Cart</h2>
         {/* TODO: render a list of items in the cart */}
         <div><Items todos={todos} /></div>
-        <p>Total Price: ${price}</p>
+        <h3>Total Price: ${price}</h3>
         <button>Checkout</button>
       </div>
     </div>
