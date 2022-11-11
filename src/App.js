@@ -62,7 +62,7 @@ function App() {
         <h2>Cart</h2>
         {/* TODO: render a list of items in the cart */}
         <div><Items todos={todos} /></div>
-        <h3>Total Price: ${price}</h3>
+        <h3>Total Price: ${(Math.round(price * 100) / 100).toFixed(2)}</h3>
         <button>Checkout</button>
       </div>
     </div>
