@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1>Kail's Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
 
 
       {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
