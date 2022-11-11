@@ -1,9 +1,58 @@
 /* Add styling for your page here */
 
 .App {
-
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .BakeryItem {
-  
+    margin: auto;
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#image-box {
+    display: block;
+    width: 5%;
+    text-align: center;
+}
+
+.title {
+    max-width: 159px;
+    padding-top: 5px;
+    line-height: 32px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #202020;
+}
+
+.subtitle {
+    max-width: 159px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #909090;
+}
+
+#prices {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
 }
